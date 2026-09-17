@@ -1,0 +1,91 @@
+{
+  "$defs": {
+    "PassagePoint": {
+      "additionalProperties": false,
+      "properties": {
+        "after_days": {
+          "minimum": 1,
+          "title": "After Days",
+          "type": "integer"
+        },
+        "mass": {
+          "$ref": "#/$defs/Probability"
+        }
+      },
+      "required": [
+        "after_days",
+        "mass"
+      ],
+      "title": "PassagePoint",
+      "type": "object"
+    },
+    "Probability": {
+      "additionalProperties": false,
+      "properties": {
+        "denominator": {
+          "maxLength": 2048,
+          "pattern": "^[1-9][0-9]*$",
+          "title": "Denominator",
+          "type": "string"
+        },
+        "numerator": {
+          "maxLength": 2048,
+          "pattern": "^-?(?:0|[1-9][0-9]*)$",
+          "title": "Numerator",
+          "type": "string"
+        }
+      },
+      "required": [
+        "numerator",
+        "denominator"
+      ],
+      "title": "Probability",
+      "type": "object"
+    }
+  },
+  "$id": "urn:uuid:7a187727-878e-510d-8ad5-17f41bb29bf2",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "clinical_validated": {
+      "const": false,
+      "default": false,
+      "title": "Clinical Validated",
+      "type": "boolean"
+    },
+    "model_id": {
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,95}$",
+      "title": "Model Id",
+      "type": "string"
+    },
+    "parameter_source": {
+      "const": "caller-supplied",
+      "default": "caller-supplied",
+      "title": "Parameter Source",
+      "type": "string"
+    },
+    "residual_mass": {
+      "$ref": "#/$defs/Probability"
+    },
+    "residual_meaning": {
+      "const": "after-horizon-or-never-no-renormalization",
+      "default": "after-horizon-or-never-no-renormalization",
+      "title": "Residual Meaning",
+      "type": "string"
+    },
+    "steps": {
+      "items": {
+        "$ref": "#/$defs/PassagePoint"
+      },
+      "title": "Steps",
+      "type": "array"
+    }
+  },
+  "required": [
+    "model_id",
+    "steps",
+    "residual_mass"
+  ],
+  "title": "DurationResult",
+  "type": "object"
+}

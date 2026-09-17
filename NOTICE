@@ -1,0 +1,15 @@
+Quiet Cycle 0.3.0
+
+Copyright (c) 2026 Quiet Cycle contributors.
+
+The historical baseline and files under tests/reference_js originate from the
+Quiet Cycle Core 0.1.0 artifact supplied in this conversation, under the MIT license.
+Its original license is preserved in tests/reference_js/LICENSE.
+RocketPy, PyPA, pyOpenSci, Scientific Python, HL7, and UCUM were consulted as
+architectural/specification references; no affiliation or endorsement is claimed.
+No RocketPy implementation was copied into this library.
+
+Implementation and documentation were prepared with AI assistance. Automated tests
+and review notes are provided; no independent human, clinical, or security review
+is implied. Examples are synthetic. Publication and attribution decisions remain
+with the repository owner and future contributors.

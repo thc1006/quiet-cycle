@@ -1,0 +1,3 @@
+signal wearable-ridge-1 MAE numerator='13' denominator='12' baseline numerator='9' denominator='4'
+noise wearable-ridge-1 MAE numerator='77' denominator='24' baseline numerator='11' denominator='4'
+drift wearable-ridge-1 MAE numerator='19' denominator='4' baseline numerator='8' denominator='3'

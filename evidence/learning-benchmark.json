@@ -1,0 +1,476 @@
+{
+  "scenarios": {
+    "drift": {
+      "abstained": 0,
+      "abstention_reasons": {},
+      "attempt_statuses": [
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        }
+      ],
+      "attempted": 24,
+      "baseline_mae_same_estimated_cases": {
+        "denominator": "3",
+        "numerator": "8"
+      },
+      "blend": {
+        "denominator": "1",
+        "numerator": "1"
+      },
+      "case_build_rejections": [],
+      "clinical_validation": "not-established",
+      "data_kind": "synthetic",
+      "estimated": 24,
+      "intervals": [
+        {
+          "covered": 7,
+          "denominator": 24,
+          "mean_finite_width_dates": {
+            "denominator": "1",
+            "numerator": "5"
+          },
+          "nominal_coverage_ppm": 800000,
+          "unbounded": 0
+        },
+        {
+          "covered": 9,
+          "denominator": 24,
+          "mean_finite_width_dates": {
+            "denominator": "1",
+            "numerator": "7"
+          },
+          "nominal_coverage_ppm": 900000,
+          "unbounded": 0
+        }
+      ],
+      "mae_days": {
+        "denominator": "4",
+        "numerator": "19"
+      },
+      "max_error_days": 14,
+      "model_sha256": "ae4424feab26fa4b311aa810914961d18b32d70d30bced0008b0e01d3fa46611",
+      "mse_days_squared": {
+        "denominator": "6",
+        "numerator": "193"
+      },
+      "selected_candidate": "wearable-ridge-1",
+      "split_counts": [
+        36,
+        18,
+        24,
+        24
+      ],
+      "warning": "Complete-labelled eligible cases only; report build_cases rejections separately. Not a clinical benchmark.",
+      "within_one_day": 3,
+      "within_three_days": 9
+    },
+    "noise": {
+      "abstained": 0,
+      "abstention_reasons": {},
+      "attempt_statuses": [
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        }
+      ],
+      "attempted": 24,
+      "baseline_mae_same_estimated_cases": {
+        "denominator": "4",
+        "numerator": "11"
+      },
+      "blend": {
+        "denominator": "1",
+        "numerator": "1"
+      },
+      "case_build_rejections": [],
+      "clinical_validation": "not-established",
+      "data_kind": "synthetic",
+      "estimated": 24,
+      "intervals": [
+        {
+          "covered": 22,
+          "denominator": 24,
+          "mean_finite_width_dates": {
+            "denominator": "1",
+            "numerator": "11"
+          },
+          "nominal_coverage_ppm": 800000,
+          "unbounded": 0
+        },
+        {
+          "covered": 23,
+          "denominator": 24,
+          "mean_finite_width_dates": {
+            "denominator": "24",
+            "numerator": "359"
+          },
+          "nominal_coverage_ppm": 900000,
+          "unbounded": 0
+        }
+      ],
+      "mae_days": {
+        "denominator": "24",
+        "numerator": "77"
+      },
+      "max_error_days": 10,
+      "model_sha256": "418ba3a0d2308820404e3e20723ddf733c91a56c683949a25a1904594124a741",
+      "mse_days_squared": {
+        "denominator": "24",
+        "numerator": "337"
+      },
+      "selected_candidate": "wearable-ridge-1",
+      "split_counts": [
+        36,
+        18,
+        24,
+        24
+      ],
+      "warning": "Complete-labelled eligible cases only; report build_cases rejections separately. Not a clinical benchmark.",
+      "within_one_day": 4,
+      "within_three_days": 16
+    },
+    "signal": {
+      "abstained": 0,
+      "abstention_reasons": {},
+      "attempt_statuses": [
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        },
+        {
+          "reason": "fitted-landmark-model",
+          "status": "estimate"
+        }
+      ],
+      "attempted": 24,
+      "baseline_mae_same_estimated_cases": {
+        "denominator": "4",
+        "numerator": "9"
+      },
+      "blend": {
+        "denominator": "1",
+        "numerator": "1"
+      },
+      "case_build_rejections": [],
+      "clinical_validation": "not-established",
+      "data_kind": "synthetic",
+      "estimated": 24,
+      "intervals": [
+        {
+          "covered": 23,
+          "denominator": 24,
+          "mean_finite_width_dates": {
+            "denominator": "1",
+            "numerator": "5"
+          },
+          "nominal_coverage_ppm": 800000,
+          "unbounded": 0
+        },
+        {
+          "covered": 23,
+          "denominator": 24,
+          "mean_finite_width_dates": {
+            "denominator": "1",
+            "numerator": "7"
+          },
+          "nominal_coverage_ppm": 900000,
+          "unbounded": 0
+        }
+      ],
+      "mae_days": {
+        "denominator": "12",
+        "numerator": "13"
+      },
+      "max_error_days": 4,
+      "model_sha256": "ae4424feab26fa4b311aa810914961d18b32d70d30bced0008b0e01d3fa46611",
+      "mse_days_squared": {
+        "denominator": "1",
+        "numerator": "2"
+      },
+      "selected_candidate": "wearable-ridge-1",
+      "split_counts": [
+        36,
+        18,
+        24,
+        24
+      ],
+      "warning": "Complete-labelled eligible cases only; report build_cases rejections separately. Not a clinical benchmark.",
+      "within_one_day": 18,
+      "within_three_days": 23
+    }
+  },
+  "scope": "synthetic-software-experiment-not-clinical-evidence"
+}

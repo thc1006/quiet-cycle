@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2025-07-02",
+  "cutoff": "2025-07-02T12:00:00.000Z",
+  "utcOffsetMinutes": 0,
+  "context": {
+    "mode": "natural-cycle",
+    "changedSince": null,
+    "paused": false
+  },
+  "events": [
+    {
+      "id": "onset-0",
+      "revision": 1,
+      "kind": "onset",
+      "recordedAt": "2025-01-01T00:00:00.000Z",
+      "utcOffsetMinutes": 0,
+      "deleted": false,
+      "date": "2025-01-01",
+      "certainty": "confirmed",
+      "previousOnsetId": null,
+      "continuity": "unknown",
+      "excludeFromHistory": false
+    },
+    {
+      "id": "onset-1",
+      "revision": 1,
+      "kind": "onset",
+      "recordedAt": "2025-01-29T00:00:00.000Z",
+      "utcOffsetMinutes": 0,
+      "deleted": false,
+      "date": "2025-01-29",
+      "certainty": "confirmed",
+      "previousOnsetId": "onset-0",
+      "continuity": "confirmed",
+      "excludeFromHistory": false
+    },
+    {
+      "id": "onset-2",
+      "revision": 1,
+      "kind": "onset",
+      "recordedAt": "2025-02-27T00:00:00.000Z",
+      "utcOffsetMinutes": 0,
+      "deleted": false,
+      "date": "2025-02-27",
+      "certainty": "confirmed",
+      "previousOnsetId": "onset-1",
+      "continuity": "confirmed",
+      "excludeFromHistory": false
+    },
+    {
+      "id": "onset-3",
+      "revision": 1,
+      "kind": "onset",
+      "recordedAt": "2025-03-27T00:00:00.000Z",
+      "utcOffsetMinutes": 0,
+      "deleted": false,
+      "date": "2025-03-27",
+      "certainty": "confirmed",
+      "previousOnsetId": "onset-2",
+      "continuity": "confirmed",
+      "excludeFromHistory": false
+    },
+    {
+      "id": "onset-4",
+      "revision": 1,
+      "kind": "onset",
+      "recordedAt": "2025-04-26T00:00:00.000Z",
+      "utcOffsetMinutes": 0,
+      "deleted": false,
+      "date": "2025-04-26",
+      "certainty": "confirmed",
+      "previousOnsetId": "onset-3",
+      "continuity": "confirmed",
+      "excludeFromHistory": false
+    },
+    {
+      "id": "onset-5",
+      "revision": 1,
+      "kind": "onset",
+      "recordedAt": "2025-05-25T00:00:00.000Z",
+      "utcOffsetMinutes": 0,
+      "deleted": false,
+      "date": "2025-05-25",
+      "certainty": "confirmed",
+      "previousOnsetId": "onset-4",
+      "continuity": "confirmed",
+      "excludeFromHistory": false
+    },
+    {
+      "id": "onset-6",
+      "revision": 1,
+      "kind": "onset",
+      "recordedAt": "2025-06-22T00:00:00.000Z",
+      "utcOffsetMinutes": 0,
+      "deleted": false,
+      "date": "2025-06-22",
+      "certainty": "confirmed",
+      "previousOnsetId": "onset-5",
+      "continuity": "confirmed",
+      "excludeFromHistory": false
+    }
+  ]
+}

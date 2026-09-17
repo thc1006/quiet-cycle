@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Cite the exact release and model configuration used in your work."
+title: "Quiet Cycle: typed event pipelines and deterministic research forecasts"
+authors:
+  - name: "Quiet Cycle contributors"
+type: software
+version: 0.3.0
+date-released: 2026-09-17
+license: MIT
+keywords:
+  - menstrual-cycle
+  - deterministic
+  - health-data
+  - Python

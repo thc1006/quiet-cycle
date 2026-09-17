@@ -1,0 +1,8 @@
+subject_id,id,revision,kind,recorded_at,utc_offset_minutes,date,certainty,previous_onset_id,continuity,exclude_from_history,anchor_id,through,symptom,state,impact,metric,value,unit,measured_at,method,body_site,missing_reason,target_kind,source,source_record_id,imported_at
+demo,onset-0,1,onset,2025-01-01T00:00:00.000Z,0,2025-01-01,confirmed,,unknown,false,,,,,,,,,,,,,,quiet-cycle-v1,,
+demo,onset-1,1,onset,2025-01-29T00:00:00.000Z,0,2025-01-29,confirmed,onset-0,confirmed,false,,,,,,,,,,,,,,quiet-cycle-v1,,
+demo,onset-2,1,onset,2025-02-27T00:00:00.000Z,0,2025-02-27,confirmed,onset-1,confirmed,false,,,,,,,,,,,,,,quiet-cycle-v1,,
+demo,onset-3,1,onset,2025-03-27T00:00:00.000Z,0,2025-03-27,confirmed,onset-2,confirmed,false,,,,,,,,,,,,,,quiet-cycle-v1,,
+demo,onset-4,1,onset,2025-04-26T00:00:00.000Z,0,2025-04-26,confirmed,onset-3,confirmed,false,,,,,,,,,,,,,,quiet-cycle-v1,,
+demo,onset-5,1,onset,2025-05-25T00:00:00.000Z,0,2025-05-25,confirmed,onset-4,confirmed,false,,,,,,,,,,,,,,quiet-cycle-v1,,
+demo,onset-6,1,onset,2025-06-22T00:00:00.000Z,0,2025-06-22,confirmed,onset-5,confirmed,false,,,,,,,,,,,,,,quiet-cycle-v1,,

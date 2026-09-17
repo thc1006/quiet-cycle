@@ -1,0 +1,133 @@
+{
+  "selected_mutations": 14,
+  "killed": 14,
+  "scope": "targeted-regressions-not-exhaustive-mutation-coverage",
+  "results": [
+    {
+      "mutation": "missing-becomes-negative",
+      "test": "tests/test_pipeline.py::test_missing_is_not_no_onset",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "1 failed in 0.08s"
+      ]
+    },
+    {
+      "mutation": "future-report-leak",
+      "test": "tests/test_pipeline.py::test_late_revision_is_invisible_in_replay",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "1 failed in 0.07s"
+      ]
+    },
+    {
+      "mutation": "wrong-fahrenheit-scale",
+      "test": "tests/test_adapters.py::test_unit_cases",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "2 failed, 5 passed in 0.09s"
+      ]
+    },
+    {
+      "mutation": "csv-boolean-inversion",
+      "test": "tests/test_adapters.py::test_all_file_formats_are_equivalent",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "1 failed in 0.07s"
+      ]
+    },
+    {
+      "mutation": "duplicate-json-last-wins",
+      "test": "tests/test_models.py::test_wire_parser_rejects_ambiguous_json",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "1 failed, 4 passed in 0.07s"
+      ]
+    },
+    {
+      "mutation": "fhir-source-collision",
+      "test": "tests/test_adapters.py::test_fhir_sources_and_site_mapping",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "1 failed in 0.07s"
+      ]
+    },
+    {
+      "mutation": "drop-residual-mass",
+      "test": "tests/test_research.py::test_duration_simple_and_residual",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "1 failed in 0.08s"
+      ]
+    },
+    {
+      "mutation": "kernel-flat-not-triangular",
+      "test": "tests/test_reference.py::test_1400_kernel_and_allocation_cases",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "1 failed in 0.07s"
+      ]
+    },
+    {
+      "mutation": "conformal-missing-infinity-rank",
+      "test": "tests/test_learning.py::test_conformal_rank",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "2 failed, 3 passed in 0.13s"
+      ]
+    },
+    {
+      "mutation": "model-backdated",
+      "test": "tests/test_learning.py::test_no_backdated_model",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "1 failed in 0.73s"
+      ]
+    },
+    {
+      "mutation": "direct-scope-bypass",
+      "test": "tests/test_learning.py::test_direct_landmark_cannot_bypass_scope",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "2 failed, 2 passed in 0.74s"
+      ]
+    },
+    {
+      "mutation": "round-ties-wrong",
+      "test": "tests/test_learning.py::test_rounding",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "4 failed, 1 passed in 0.11s"
+      ]
+    },
+    {
+      "mutation": "regularize-intercept",
+      "test": "tests/test_learning.py::test_ridge_normal_equation_exact",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "3 failed in 0.11s"
+      ]
+    },
+    {
+      "mutation": "training-time-leak",
+      "test": "tests/test_learning.py::test_temporal_boundary_rejected",
+      "killed": true,
+      "exit_code": 1,
+      "summary": [
+        "1 failed in 0.82s"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+# Quiet Cycle 0.3.0
+
+Python library for typed menstrual-event pipelines and exact, fixed-landmark
+model development. No frontend. No human-trained weights or clinical accuracy
+claim. Synthetic examples are for software testing only.
+
+- [README and exact formulas](README.md)
+- [Training, knowledge-time and calibration rules](docs/TRAINING.md)
+- [Evidence review](docs/EVIDENCE_REVIEW.md)
+- [Learned model card](docs/MODEL_CARD_MULTIFACTOR.md)
+- [Input contracts](docs/CONTRACT.md)
+- [Imports](docs/IMPORTS.md)
+- [Actual test evidence](docs/TEST_REPORT.md)
+- [Security and privacy](SECURITY.md)
+
+Python: quietcycle.learning.MultiFactorPipeline.
+CLI: quiet-cycle fit / forecast / evaluate.
+A fitted artifact applies to its one explicit elapsed-day landmark. Nominal
+intervals do not imply unconditional or individual coverage guarantees.

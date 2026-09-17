@@ -1,0 +1,352 @@
+running bdist_wheel
+running build
+running build_py
+copying src/quietcycle/predictors.py -> build/lib/quietcycle
+copying src/quietcycle/features.py -> build/lib/quietcycle
+copying src/quietcycle/dates.py -> build/lib/quietcycle
+copying src/quietcycle/models.py -> build/lib/quietcycle
+copying src/quietcycle/cli.py -> build/lib/quietcycle
+copying src/quietcycle/pipeline.py -> build/lib/quietcycle
+copying src/quietcycle/api.py -> build/lib/quietcycle
+copying src/quietcycle/__init__.py -> build/lib/quietcycle
+copying src/quietcycle/ledger.py -> build/lib/quietcycle
+copying src/quietcycle/errors.py -> build/lib/quietcycle
+copying src/quietcycle/__main__.py -> build/lib/quietcycle
+copying src/quietcycle/units.py -> build/lib/quietcycle
+copying src/quietcycle/serialization.py -> build/lib/quietcycle
+copying src/quietcycle/learning/contracts.py -> build/lib/quietcycle/learning
+copying src/quietcycle/learning/prediction.py -> build/lib/quietcycle/learning
+copying src/quietcycle/learning/__init__.py -> build/lib/quietcycle/learning
+copying src/quietcycle/learning/fitting.py -> build/lib/quietcycle/learning
+copying src/quietcycle/learning/evaluation.py -> build/lib/quietcycle/learning
+copying src/quietcycle/learning/exact.py -> build/lib/quietcycle/learning
+copying src/quietcycle/learning/landmarks.py -> build/lib/quietcycle/learning
+copying src/quietcycle/adapters/legacy.py -> build/lib/quietcycle/adapters
+copying src/quietcycle/adapters/csv.py -> build/lib/quietcycle/adapters
+copying src/quietcycle/adapters/fhir.py -> build/lib/quietcycle/adapters
+copying src/quietcycle/adapters/__init__.py -> build/lib/quietcycle/adapters
+copying src/quietcycle/adapters/records.py -> build/lib/quietcycle/adapters
+copying src/quietcycle/schemas/__init__.py -> build/lib/quietcycle/schemas
+copying src/quietcycle/research/duration.py -> build/lib/quietcycle/research
+copying src/quietcycle/research/pipeline.py -> build/lib/quietcycle/research
+copying src/quietcycle/research/__init__.py -> build/lib/quietcycle/research
+copying src/quietcycle/research/evaluation.py -> build/lib/quietcycle/research
+running egg_info
+writing src/quiet_cycle.egg-info/PKG-INFO
+writing dependency_links to src/quiet_cycle.egg-info/dependency_links.txt
+writing entry points to src/quiet_cycle.egg-info/entry_points.txt
+writing requirements to src/quiet_cycle.egg-info/requires.txt
+writing top-level names to src/quiet_cycle.egg-info/top_level.txt
+reading manifest file 'src/quiet_cycle.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching '.coverage'
+no previously-included directories found matching '.git'
+no previously-included directories found matching '.pytest_cache'
+no previously-included directories found matching '.mypy_cache'
+no previously-included directories found matching '.ruff_cache'
+no previously-included directories found matching 'build'
+no previously-included directories found matching 'dist'
+no previously-included directories found matching 'evidence'
+no previously-included directories found matching '**/__pycache__'
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+adding license file 'LICENSE'
+adding license file 'NOTICE'
+writing manifest file 'src/quiet_cycle.egg-info/SOURCES.txt'
+copying src/quietcycle/py.typed -> build/lib/quietcycle
+copying src/quietcycle/schemas/request.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/labelled-case.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/fit-request.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/duration-model.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/dataset.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/landmark.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/duration-result.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/learned-prediction.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/result.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/query.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/fitted-model.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/dataset.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/duration-model.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/duration-result.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/fit-request.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/fitted-model.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/labelled-case.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/landmark.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/learned-prediction.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/query.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/request.schema.json -> build/lib/quietcycle/schemas
+copying src/quietcycle/schemas/result.schema.json -> build/lib/quietcycle/schemas
+installing to build/bdist.linux-x86_64/wheel
+running install
+running install_lib
+creating build/bdist.linux-x86_64/wheel
+creating build/bdist.linux-x86_64/wheel/quietcycle
+creating build/bdist.linux-x86_64/wheel/quietcycle/learning
+copying build/lib/quietcycle/learning/contracts.py -> build/bdist.linux-x86_64/wheel/./quietcycle/learning
+copying build/lib/quietcycle/learning/prediction.py -> build/bdist.linux-x86_64/wheel/./quietcycle/learning
+copying build/lib/quietcycle/learning/__init__.py -> build/bdist.linux-x86_64/wheel/./quietcycle/learning
+copying build/lib/quietcycle/learning/fitting.py -> build/bdist.linux-x86_64/wheel/./quietcycle/learning
+copying build/lib/quietcycle/learning/evaluation.py -> build/bdist.linux-x86_64/wheel/./quietcycle/learning
+copying build/lib/quietcycle/learning/exact.py -> build/bdist.linux-x86_64/wheel/./quietcycle/learning
+copying build/lib/quietcycle/learning/landmarks.py -> build/bdist.linux-x86_64/wheel/./quietcycle/learning
+copying build/lib/quietcycle/predictors.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/features.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/dates.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/py.typed -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/models.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/cli.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/pipeline.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/api.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/__init__.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/ledger.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/errors.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/__main__.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+creating build/bdist.linux-x86_64/wheel/quietcycle/adapters
+copying build/lib/quietcycle/adapters/legacy.py -> build/bdist.linux-x86_64/wheel/./quietcycle/adapters
+copying build/lib/quietcycle/adapters/csv.py -> build/bdist.linux-x86_64/wheel/./quietcycle/adapters
+copying build/lib/quietcycle/adapters/fhir.py -> build/bdist.linux-x86_64/wheel/./quietcycle/adapters
+copying build/lib/quietcycle/adapters/__init__.py -> build/bdist.linux-x86_64/wheel/./quietcycle/adapters
+copying build/lib/quietcycle/adapters/records.py -> build/bdist.linux-x86_64/wheel/./quietcycle/adapters
+creating build/bdist.linux-x86_64/wheel/quietcycle/schemas
+copying build/lib/quietcycle/schemas/request.schema.json -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/schemas/labelled-case.schema.json -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/schemas/fit-request.schema.json -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/schemas/duration-model.schema.json -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/schemas/dataset.schema.json -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/schemas/landmark.schema.json -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/schemas/__init__.py -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/schemas/duration-result.schema.json -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/schemas/learned-prediction.schema.json -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/schemas/result.schema.json -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/schemas/query.schema.json -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/schemas/fitted-model.schema.json -> build/bdist.linux-x86_64/wheel/./quietcycle/schemas
+copying build/lib/quietcycle/units.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+copying build/lib/quietcycle/serialization.py -> build/bdist.linux-x86_64/wheel/./quietcycle
+creating build/bdist.linux-x86_64/wheel/quietcycle/research
+copying build/lib/quietcycle/research/duration.py -> build/bdist.linux-x86_64/wheel/./quietcycle/research
+copying build/lib/quietcycle/research/pipeline.py -> build/bdist.linux-x86_64/wheel/./quietcycle/research
+copying build/lib/quietcycle/research/__init__.py -> build/bdist.linux-x86_64/wheel/./quietcycle/research
+copying build/lib/quietcycle/research/evaluation.py -> build/bdist.linux-x86_64/wheel/./quietcycle/research
+running install_egg_info
+Copying src/quiet_cycle.egg-info to build/bdist.linux-x86_64/wheel/./quiet_cycle-0.3.0-py3.13.egg-info
+running install_scripts
+creating build/bdist.linux-x86_64/wheel/quiet_cycle-0.3.0.dist-info/WHEEL
+creating '/mnt/data/revision/quiet-cycle/dist/.tmp-5el122zl/quiet_cycle-0.3.0-py3-none-any.whl' and adding 'build/bdist.linux-x86_64/wheel' to it
+adding 'quiet_cycle-0.3.0.dist-info/licenses/LICENSE'
+adding 'quiet_cycle-0.3.0.dist-info/licenses/NOTICE'
+adding 'quietcycle/__init__.py'
+adding 'quietcycle/__main__.py'
+adding 'quietcycle/api.py'
+adding 'quietcycle/cli.py'
+adding 'quietcycle/dates.py'
+adding 'quietcycle/errors.py'
+adding 'quietcycle/features.py'
+adding 'quietcycle/ledger.py'
+adding 'quietcycle/models.py'
+adding 'quietcycle/pipeline.py'
+adding 'quietcycle/predictors.py'
+adding 'quietcycle/py.typed'
+adding 'quietcycle/serialization.py'
+adding 'quietcycle/units.py'
+adding 'quietcycle/adapters/__init__.py'
+adding 'quietcycle/adapters/csv.py'
+adding 'quietcycle/adapters/fhir.py'
+adding 'quietcycle/adapters/legacy.py'
+adding 'quietcycle/adapters/records.py'
+adding 'quietcycle/learning/__init__.py'
+adding 'quietcycle/learning/contracts.py'
+adding 'quietcycle/learning/evaluation.py'
+adding 'quietcycle/learning/exact.py'
+adding 'quietcycle/learning/fitting.py'
+adding 'quietcycle/learning/landmarks.py'
+adding 'quietcycle/learning/prediction.py'
+adding 'quietcycle/research/__init__.py'
+adding 'quietcycle/research/duration.py'
+adding 'quietcycle/research/evaluation.py'
+adding 'quietcycle/research/pipeline.py'
+adding 'quietcycle/schemas/__init__.py'
+adding 'quietcycle/schemas/dataset.schema.json'
+adding 'quietcycle/schemas/duration-model.schema.json'
+adding 'quietcycle/schemas/duration-result.schema.json'
+adding 'quietcycle/schemas/fit-request.schema.json'
+adding 'quietcycle/schemas/fitted-model.schema.json'
+adding 'quietcycle/schemas/labelled-case.schema.json'
+adding 'quietcycle/schemas/landmark.schema.json'
+adding 'quietcycle/schemas/learned-prediction.schema.json'
+adding 'quietcycle/schemas/query.schema.json'
+adding 'quietcycle/schemas/request.schema.json'
+adding 'quietcycle/schemas/result.schema.json'
+adding 'quiet_cycle-0.3.0.dist-info/METADATA'
+adding 'quiet_cycle-0.3.0.dist-info/WHEEL'
+adding 'quiet_cycle-0.3.0.dist-info/entry_points.txt'
+adding 'quiet_cycle-0.3.0.dist-info/top_level.txt'
+adding 'quiet_cycle-0.3.0.dist-info/RECORD'
+removing build/bdist.linux-x86_64/wheel
+quiet_cycle-0.3.0-py3-none-any.whl
+running sdist
+running egg_info
+writing src/quiet_cycle.egg-info/PKG-INFO
+writing dependency_links to src/quiet_cycle.egg-info/dependency_links.txt
+writing entry points to src/quiet_cycle.egg-info/entry_points.txt
+writing requirements to src/quiet_cycle.egg-info/requires.txt
+writing top-level names to src/quiet_cycle.egg-info/top_level.txt
+reading manifest file 'src/quiet_cycle.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching '.coverage'
+no previously-included directories found matching '.git'
+no previously-included directories found matching '.pytest_cache'
+no previously-included directories found matching '.mypy_cache'
+no previously-included directories found matching '.ruff_cache'
+no previously-included directories found matching 'build'
+no previously-included directories found matching 'dist'
+no previously-included directories found matching 'evidence'
+no previously-included directories found matching '**/__pycache__'
+warning: no previously-included files matching '*.py[cod]' found anywhere in distribution
+adding license file 'LICENSE'
+adding license file 'NOTICE'
+writing manifest file 'src/quiet_cycle.egg-info/SOURCES.txt'
+running check
+creating quiet_cycle-0.3.0
+creating quiet_cycle-0.3.0/contracts
+creating quiet_cycle-0.3.0/docs
+creating quiet_cycle-0.3.0/docs/archive
+creating quiet_cycle-0.3.0/examples
+creating quiet_cycle-0.3.0/prompts
+creating quiet_cycle-0.3.0/scripts
+creating quiet_cycle-0.3.0/src/quiet_cycle.egg-info
+creating quiet_cycle-0.3.0/src/quietcycle
+creating quiet_cycle-0.3.0/src/quietcycle/adapters
+creating quiet_cycle-0.3.0/src/quietcycle/learning
+creating quiet_cycle-0.3.0/src/quietcycle/research
+creating quiet_cycle-0.3.0/src/quietcycle/schemas
+creating quiet_cycle-0.3.0/tests
+creating quiet_cycle-0.3.0/tests/reference_js
+copying files to quiet_cycle-0.3.0...
+copying AGENTS.md -> quiet_cycle-0.3.0
+copying CHANGELOG.md -> quiet_cycle-0.3.0
+copying CITATION.cff -> quiet_cycle-0.3.0
+copying CLAUDE.md -> quiet_cycle-0.3.0
+copying CONTRIBUTING.md -> quiet_cycle-0.3.0
+copying LICENSE -> quiet_cycle-0.3.0
+copying MANIFEST.in -> quiet_cycle-0.3.0
+copying NOTICE -> quiet_cycle-0.3.0
+copying README.md -> quiet_cycle-0.3.0
+copying README.zh-TW.md -> quiet_cycle-0.3.0
+copying SECURITY.md -> quiet_cycle-0.3.0
+copying constraints-contracts.txt -> quiet_cycle-0.3.0
+copying constraints-tested.txt -> quiet_cycle-0.3.0
+copying llms.txt -> quiet_cycle-0.3.0
+copying pyproject.toml -> quiet_cycle-0.3.0
+copying contracts/interfaces.json -> quiet_cycle-0.3.0/contracts
+copying contracts/openapi.json -> quiet_cycle-0.3.0/contracts
+copying docs/ARCHITECTURE.md -> quiet_cycle-0.3.0/docs
+copying docs/CONTRACT.md -> quiet_cycle-0.3.0/docs
+copying docs/EVIDENCE_REVIEW.md -> quiet_cycle-0.3.0/docs
+copying docs/EXTENDING.md -> quiet_cycle-0.3.0/docs
+copying docs/HTTP.md -> quiet_cycle-0.3.0/docs
+copying docs/IMPORTS.md -> quiet_cycle-0.3.0/docs
+copying docs/LEARNING_CODE_MAP.md -> quiet_cycle-0.3.0/docs
+copying docs/MODEL_CARD.md -> quiet_cycle-0.3.0/docs
+copying docs/MODEL_CARD_MULTIFACTOR.md -> quiet_cycle-0.3.0/docs
+copying docs/QUICKSTART.md -> quiet_cycle-0.3.0/docs
+copying docs/REFERENCES.md -> quiet_cycle-0.3.0/docs
+copying docs/RELEASING.md -> quiet_cycle-0.3.0/docs
+copying docs/REVIEW.md -> quiet_cycle-0.3.0/docs
+copying docs/TEST_REPORT.md -> quiet_cycle-0.3.0/docs
+copying docs/TRAINING.md -> quiet_cycle-0.3.0/docs
+copying docs/archive/REVIEW-0.2.0.md -> quiet_cycle-0.3.0/docs/archive
+copying docs/archive/TEST_REPORT-0.2.0.md -> quiet_cycle-0.3.0/docs/archive
+copying examples/basic.py -> quiet_cycle-0.3.0/examples
+copying examples/custom_predictor.py -> quiet_cycle-0.3.0/examples
+copying examples/dataset.json -> quiet_cycle-0.3.0/examples
+copying examples/events.csv -> quiet_cycle-0.3.0/examples
+copying examples/events.jsonl -> quiet_cycle-0.3.0/examples
+copying examples/fhir-observation.json -> quiet_cycle-0.3.0/examples
+copying examples/fhir-subject-map.json -> quiet_cycle-0.3.0/examples
+copying examples/fhir_import.py -> quiet_cycle-0.3.0/examples
+copying examples/from_rows.py -> quiet_cycle-0.3.0/examples
+copying examples/legacy-v1.json -> quiet_cycle-0.3.0/examples
+copying examples/node_client.mjs -> quiet_cycle-0.3.0/examples
+copying examples/query.json -> quiet_cycle-0.3.0/examples
+copying examples/request.json -> quiet_cycle-0.3.0/examples
+copying examples/research_pipeline.py -> quiet_cycle-0.3.0/examples
+copying examples/result.json -> quiet_cycle-0.3.0/examples
+copying examples/synthetic_cohort.py -> quiet_cycle-0.3.0/examples
+copying examples/train_multifactor.py -> quiet_cycle-0.3.0/examples
+copying prompts/CONTINUE.zh-TW.md -> quiet_cycle-0.3.0/prompts
+copying prompts/REVIEW.zh-TW.md -> quiet_cycle-0.3.0/prompts
+copying scripts/benchmark_learning.py -> quiet_cycle-0.3.0/scripts
+copying scripts/build_local.py -> quiet_cycle-0.3.0/scripts
+copying scripts/check_artifacts.py -> quiet_cycle-0.3.0/scripts
+copying scripts/check_repository.py -> quiet_cycle-0.3.0/scripts
+copying scripts/generate_contracts.py -> quiet_cycle-0.3.0/scripts
+copying scripts/package_repository.py -> quiet_cycle-0.3.0/scripts
+copying scripts/run_mutations.py -> quiet_cycle-0.3.0/scripts
+copying src/quiet_cycle.egg-info/PKG-INFO -> quiet_cycle-0.3.0/src/quiet_cycle.egg-info
+copying src/quiet_cycle.egg-info/SOURCES.txt -> quiet_cycle-0.3.0/src/quiet_cycle.egg-info
+copying src/quiet_cycle.egg-info/dependency_links.txt -> quiet_cycle-0.3.0/src/quiet_cycle.egg-info
+copying src/quiet_cycle.egg-info/entry_points.txt -> quiet_cycle-0.3.0/src/quiet_cycle.egg-info
+copying src/quiet_cycle.egg-info/requires.txt -> quiet_cycle-0.3.0/src/quiet_cycle.egg-info
+copying src/quiet_cycle.egg-info/top_level.txt -> quiet_cycle-0.3.0/src/quiet_cycle.egg-info
+copying src/quietcycle/__init__.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/__main__.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/api.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/cli.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/dates.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/errors.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/features.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/ledger.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/models.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/pipeline.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/predictors.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/py.typed -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/serialization.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/units.py -> quiet_cycle-0.3.0/src/quietcycle
+copying src/quietcycle/adapters/__init__.py -> quiet_cycle-0.3.0/src/quietcycle/adapters
+copying src/quietcycle/adapters/csv.py -> quiet_cycle-0.3.0/src/quietcycle/adapters
+copying src/quietcycle/adapters/fhir.py -> quiet_cycle-0.3.0/src/quietcycle/adapters
+copying src/quietcycle/adapters/legacy.py -> quiet_cycle-0.3.0/src/quietcycle/adapters
+copying src/quietcycle/adapters/records.py -> quiet_cycle-0.3.0/src/quietcycle/adapters
+copying src/quietcycle/learning/__init__.py -> quiet_cycle-0.3.0/src/quietcycle/learning
+copying src/quietcycle/learning/contracts.py -> quiet_cycle-0.3.0/src/quietcycle/learning
+copying src/quietcycle/learning/evaluation.py -> quiet_cycle-0.3.0/src/quietcycle/learning
+copying src/quietcycle/learning/exact.py -> quiet_cycle-0.3.0/src/quietcycle/learning
+copying src/quietcycle/learning/fitting.py -> quiet_cycle-0.3.0/src/quietcycle/learning
+copying src/quietcycle/learning/landmarks.py -> quiet_cycle-0.3.0/src/quietcycle/learning
+copying src/quietcycle/learning/prediction.py -> quiet_cycle-0.3.0/src/quietcycle/learning
+copying src/quietcycle/research/__init__.py -> quiet_cycle-0.3.0/src/quietcycle/research
+copying src/quietcycle/research/duration.py -> quiet_cycle-0.3.0/src/quietcycle/research
+copying src/quietcycle/research/evaluation.py -> quiet_cycle-0.3.0/src/quietcycle/research
+copying src/quietcycle/research/pipeline.py -> quiet_cycle-0.3.0/src/quietcycle/research
+copying src/quietcycle/schemas/__init__.py -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying src/quietcycle/schemas/dataset.schema.json -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying src/quietcycle/schemas/duration-model.schema.json -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying src/quietcycle/schemas/duration-result.schema.json -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying src/quietcycle/schemas/fit-request.schema.json -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying src/quietcycle/schemas/fitted-model.schema.json -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying src/quietcycle/schemas/labelled-case.schema.json -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying src/quietcycle/schemas/landmark.schema.json -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying src/quietcycle/schemas/learned-prediction.schema.json -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying src/quietcycle/schemas/query.schema.json -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying src/quietcycle/schemas/request.schema.json -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying src/quietcycle/schemas/result.schema.json -> quiet_cycle-0.3.0/src/quietcycle/schemas
+copying tests/conftest.py -> quiet_cycle-0.3.0/tests
+copying tests/test_adapters.py -> quiet_cycle-0.3.0/tests
+copying tests/test_interfaces.py -> quiet_cycle-0.3.0/tests
+copying tests/test_learning.py -> quiet_cycle-0.3.0/tests
+copying tests/test_models.py -> quiet_cycle-0.3.0/tests
+copying tests/test_pipeline.py -> quiet_cycle-0.3.0/tests
+copying tests/test_reference.py -> quiet_cycle-0.3.0/tests
+copying tests/test_research.py -> quiet_cycle-0.3.0/tests
+copying tests/reference_js/LICENSE -> quiet_cycle-0.3.0/tests/reference_js
+copying tests/reference_js/dates.js -> quiet_cycle-0.3.0/tests/reference_js
+copying tests/reference_js/errors.js -> quiet_cycle-0.3.0/tests/reference_js
+copying tests/reference_js/exact.js -> quiet_cycle-0.3.0/tests/reference_js
+copying tests/reference_js/ledger.js -> quiet_cycle-0.3.0/tests/reference_js
+copying tests/reference_js/package.json -> quiet_cycle-0.3.0/tests/reference_js
+copying tests/reference_js/predict.js -> quiet_cycle-0.3.0/tests/reference_js
+copying tests/reference_js/runner.mjs -> quiet_cycle-0.3.0/tests/reference_js
+copying src/quiet_cycle.egg-info/SOURCES.txt -> quiet_cycle-0.3.0/src/quiet_cycle.egg-info
+Writing quiet_cycle-0.3.0/setup.cfg
+Creating tar archive
+removing 'quiet_cycle-0.3.0' (and everything under it)
+quiet_cycle-0.3.0.tar.gz

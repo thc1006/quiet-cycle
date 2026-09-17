@@ -1,0 +1,145 @@
+{
+  "schema_version": "2.0",
+  "dataset": {
+    "schema_version": "2.0",
+    "events": [
+      {
+        "subject_id": "demo",
+        "id": "onset-0",
+        "revision": 1,
+        "recorded_at": "2025-01-01T00:00:00.000Z",
+        "utc_offset_minutes": 0,
+        "provenance": {
+          "source": "quiet-cycle-v1",
+          "source_record_id": null,
+          "imported_at": null
+        },
+        "date": "2025-01-01",
+        "kind": "onset",
+        "certainty": "confirmed",
+        "previous_onset_id": null,
+        "continuity": "unknown",
+        "exclude_from_history": false
+      },
+      {
+        "subject_id": "demo",
+        "id": "onset-1",
+        "revision": 1,
+        "recorded_at": "2025-01-29T00:00:00.000Z",
+        "utc_offset_minutes": 0,
+        "provenance": {
+          "source": "quiet-cycle-v1",
+          "source_record_id": null,
+          "imported_at": null
+        },
+        "date": "2025-01-29",
+        "kind": "onset",
+        "certainty": "confirmed",
+        "previous_onset_id": "onset-0",
+        "continuity": "confirmed",
+        "exclude_from_history": false
+      },
+      {
+        "subject_id": "demo",
+        "id": "onset-2",
+        "revision": 1,
+        "recorded_at": "2025-02-27T00:00:00.000Z",
+        "utc_offset_minutes": 0,
+        "provenance": {
+          "source": "quiet-cycle-v1",
+          "source_record_id": null,
+          "imported_at": null
+        },
+        "date": "2025-02-27",
+        "kind": "onset",
+        "certainty": "confirmed",
+        "previous_onset_id": "onset-1",
+        "continuity": "confirmed",
+        "exclude_from_history": false
+      },
+      {
+        "subject_id": "demo",
+        "id": "onset-3",
+        "revision": 1,
+        "recorded_at": "2025-03-27T00:00:00.000Z",
+        "utc_offset_minutes": 0,
+        "provenance": {
+          "source": "quiet-cycle-v1",
+          "source_record_id": null,
+          "imported_at": null
+        },
+        "date": "2025-03-27",
+        "kind": "onset",
+        "certainty": "confirmed",
+        "previous_onset_id": "onset-2",
+        "continuity": "confirmed",
+        "exclude_from_history": false
+      },
+      {
+        "subject_id": "demo",
+        "id": "onset-4",
+        "revision": 1,
+        "recorded_at": "2025-04-26T00:00:00.000Z",
+        "utc_offset_minutes": 0,
+        "provenance": {
+          "source": "quiet-cycle-v1",
+          "source_record_id": null,
+          "imported_at": null
+        },
+        "date": "2025-04-26",
+        "kind": "onset",
+        "certainty": "confirmed",
+        "previous_onset_id": "onset-3",
+        "continuity": "confirmed",
+        "exclude_from_history": false
+      },
+      {
+        "subject_id": "demo",
+        "id": "onset-5",
+        "revision": 1,
+        "recorded_at": "2025-05-25T00:00:00.000Z",
+        "utc_offset_minutes": 0,
+        "provenance": {
+          "source": "quiet-cycle-v1",
+          "source_record_id": null,
+          "imported_at": null
+        },
+        "date": "2025-05-25",
+        "kind": "onset",
+        "certainty": "confirmed",
+        "previous_onset_id": "onset-4",
+        "continuity": "confirmed",
+        "exclude_from_history": false
+      },
+      {
+        "subject_id": "demo",
+        "id": "onset-6",
+        "revision": 1,
+        "recorded_at": "2025-06-22T00:00:00.000Z",
+        "utc_offset_minutes": 0,
+        "provenance": {
+          "source": "quiet-cycle-v1",
+          "source_record_id": null,
+          "imported_at": null
+        },
+        "date": "2025-06-22",
+        "kind": "onset",
+        "certainty": "confirmed",
+        "previous_onset_id": "onset-5",
+        "continuity": "confirmed",
+        "exclude_from_history": false
+      }
+    ]
+  },
+  "query": {
+    "subject_id": "demo",
+    "as_of": "2025-07-02",
+    "cutoff": "2025-07-02T12:00:00.000Z",
+    "utc_offset_minutes": 0,
+    "context": {
+      "mode": "natural-cycle",
+      "changed_since": null,
+      "paused": false
+    }
+  }
+}

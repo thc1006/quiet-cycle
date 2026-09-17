@@ -1,0 +1,11 @@
+{
+  "subject_id": "demo",
+  "as_of": "2025-07-02",
+  "cutoff": "2025-07-02T12:00:00.000Z",
+  "utc_offset_minutes": 0,
+  "context": {
+    "mode": "natural-cycle",
+    "changed_since": null,
+    "paused": false
+  }
+}

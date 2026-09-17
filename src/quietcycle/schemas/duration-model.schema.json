@@ -1,0 +1,106 @@
+{
+  "$defs": {
+    "DurationState": {
+      "additionalProperties": false,
+      "properties": {
+        "duration_weights": {
+          "items": {
+            "maximum": 1000000,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Duration Weights",
+          "type": "array"
+        },
+        "exit_weights": {
+          "items": {
+            "maximum": 1000000,
+            "minimum": 0,
+            "type": "integer"
+          },
+          "maxLength": 120,
+          "minLength": 1,
+          "title": "Exit Weights",
+          "type": "array"
+        },
+        "id": {
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,95}$",
+          "title": "Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "duration_weights",
+        "exit_weights"
+      ],
+      "title": "DurationState",
+      "type": "object"
+    },
+    "InitialState": {
+      "additionalProperties": false,
+      "properties": {
+        "age": {
+          "minimum": 1,
+          "title": "Age",
+          "type": "integer"
+        },
+        "state": {
+          "minimum": 0,
+          "title": "State",
+          "type": "integer"
+        },
+        "weight": {
+          "maximum": 1000000,
+          "minimum": 0,
+          "title": "Weight",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "state",
+        "age",
+        "weight"
+      ],
+      "title": "InitialState",
+      "type": "object"
+    }
+  },
+  "$id": "urn:uuid:8c274760-67dd-5944-ba14-1657231f59e0",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.:-]{0,95}$",
+      "title": "Id",
+      "type": "string"
+    },
+    "initial": {
+      "items": {
+        "$ref": "#/$defs/InitialState"
+      },
+      "maxLength": 512,
+      "minLength": 1,
+      "title": "Initial",
+      "type": "array"
+    },
+    "states": {
+      "items": {
+        "$ref": "#/$defs/DurationState"
+      },
+      "maxLength": 8,
+      "minLength": 1,
+      "title": "States",
+      "type": "array"
+    }
+  },
+  "required": [
+    "id",
+    "states",
+    "initial"
+  ],
+  "title": "DurationModel",
+  "type": "object"
+}

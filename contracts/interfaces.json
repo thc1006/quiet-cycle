@@ -1,0 +1,34 @@
+{
+  "project": "quiet-cycle",
+  "version": "0.2.0",
+  "contract_version": "2.0",
+  "frontend": false,
+  "python": {
+    "import": "quietcycle",
+    "entry": "CyclePipeline.run",
+    "input": [
+      "CycleDataset",
+      "Query"
+    ],
+    "output": "PipelineResult"
+  },
+  "cli": {
+    "argv": [
+      "quiet-cycle",
+      "predict",
+      "-"
+    ],
+    "input": "stdin JSON",
+    "output": "stdout JSON",
+    "error": "stderr JSON, exit 2"
+  },
+  "http": {
+    "optional": true,
+    "openapi": "contracts/openapi.json",
+    "operation": "POST /v2/predict",
+    "authentication": "caller responsibility"
+  },
+  "schemas": "src/quietcycle/schemas",
+  "clinical_validated": false,
+  "agent_safety": "Run locally on synthetic examples; do not upload real health data to prompts."
+}

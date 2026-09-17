@@ -1,0 +1,33 @@
+{
+  "passed": 24,
+  "checks": [
+    "wheel-typing-marker",
+    "eleven-packaged-schemas",
+    "no-frontend-or-tests-in-wheel",
+    "wheel-record-hashes",
+    "sdist-source-tests-docs-and-safe-paths",
+    "installed-location-and-version",
+    "core-does-not-import-fastapi",
+    "installed-type-hints-and-resources",
+    "installed-cli-equals-golden",
+    "installed-example-basic.py",
+    "installed-example-from_rows.py",
+    "installed-example-custom_predictor.py",
+    "installed-example-research_pipeline.py",
+    "installed-example-fhir_import.py",
+    "node-to-installed-python-json",
+    "installed-learned-training-to-cli-equals-sdk",
+    "installed-learned-evaluation-equals-sdk",
+    "installed-learning-wire-schemas",
+    "live-local-http-equals-sdk-and-cli",
+    "live-http-no-store",
+    "live-openapi-equals-committed",
+    "live-learned-http-equals-cli-and-sdk",
+    "live-learned-http-no-store",
+    "live-learned-openapi"
+  ],
+  "skipped": [],
+  "dependency_isolation": "no-deps-target-install-reuses-host-dependencies",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "network": "localhost-only"
+}
